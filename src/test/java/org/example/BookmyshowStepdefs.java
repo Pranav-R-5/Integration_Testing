@@ -43,8 +43,9 @@ public class BookmyshowStepdefs {
         bookmyShow.selectTicketQuantity(driver);
     }
 
-    @Then("user prints the seats which has adjancent empty seats")
+    @Then("user prints the seats which has adjacent empty seats")
     public void userPrintsTheSeatsWhichHasAdjancentEmptySeats() {
         bookmyShow.seats(driver);
+        driver.quit();
     }
 }

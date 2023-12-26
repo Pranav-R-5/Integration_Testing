@@ -88,7 +88,7 @@ public class BookmyShow {
                             String seatNo = seats.get(i).findElement(By.tagName("a")).getText();
                             System.out.println(seat + seatNo);
                         }
-                    }catch (Exception e){System.out.println("");}
+                    }catch (Exception e){System.out.print("");}
                 }
             }
 
